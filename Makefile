@@ -160,7 +160,7 @@ prepare_files: FORCE
 	mkdir -p $(TARGET_DIR)/etc
 	mkdir -p $(TARGET_DIR)/etc/opkg
 	@echo "$(VERSION)" > $(TARGET_DIR)/etc/glversion
-	@echo "src/gz packages http://download.gl-inet.com/lede/$(VERSION)/$(BOARD)/$(SUBTARGET)" > $(TARGET_DIR)/etc/opkg/distfeeds.conf
+	@echo "src/gz packages http://download.gl-inet.com/lede/packages/$(VERSION)/$(BOARD)/$(SUBTARGET)" > $(TARGET_DIR)/etc/opkg/distfeeds.conf
 
 copy_files: FORCE
 	@echo
