@@ -4,8 +4,8 @@
 	},
 	"profiles": {
 		"gl-ar750": {
-			"include": "kmod-ath10k ath10k-firmware-qca9887",
-			"exclude": "mjpg-streamer kmod-video-core kmod-video-uvc kmod-video-gspca-core kmod-video-gspca-zc3xx kmod-video-gspca-sonixb kmod-video-gspca-sonixj"
+			"include": "kmod-ath10k ath10k-firmware-qca9887 ar750-sta-watch gl-health",
+			"exclude": "gl-health-mgmt mjpg-streamer kmod-video-core kmod-video-uvc kmod-video-gspca-core kmod-video-gspca-zc3xx kmod-video-gspca-sonixb kmod-video-gspca-sonixj"
 		},
 		"gl-ar150": {
 			"include": "",
