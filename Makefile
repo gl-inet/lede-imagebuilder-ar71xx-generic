@@ -140,6 +140,12 @@ package_index: FORCE
 	(cd $(PACKAGE_DIR); $(SCRIPT_DIR)/ipkg-make-index.sh . > Packages && \
 		gzip -9nc Packages > Packages.gz \
 	) >/dev/null 2>/dev/null
+ifdef CONFIG_SIGNED_PACKAGES
+	@echo Signing package index...
+	(cd $(PACKAGE_DIR) || continue; \
+		$(STAGING_DIR_HOST)/bin/usign -S -m Packages -s $(BUILD_KEY); \
+	) >/dev/null 2>/dev/null
+endif
 	$(OPKG) update || true
 
 package_install: FORCE
