@@ -38,6 +38,8 @@ For GL-AR150:
 $ ./gl_image -i v1 -p gl-ar150 -v 2.27
 ```  
 
+We can use ourselves files with -f option, value is files directory namt.  
+
 Available image or profile is listed in images.json.  
 
 
