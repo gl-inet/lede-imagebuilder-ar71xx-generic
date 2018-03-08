@@ -21,7 +21,8 @@ $ cd lede-imagebuilder-ar71xx-generic
 ## Configuration  
 
 You can change images.json file to install or remove packages for your  
-preference.  
+preference. Note that "-pkgname" in the package list means remove "pkgname"  
+from the package list.
 
 ## Create Image  
 
@@ -30,7 +31,11 @@ We can use gl_image utility to create image quickly. You can issue
 
 For GL-AR750:  
 ```bash  
+Stoke firmware:  
 $ ./gl_image -i v1 -p gl-ar750 -v 2.27
+
+Clean firmware:
+$ ./gl_image -i clean -p gl-ar750 -v 2.27
 ```  
 
 For GL-AR150:  
