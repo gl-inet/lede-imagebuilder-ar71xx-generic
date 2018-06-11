@@ -120,9 +120,6 @@ _call_image: staging_dir/host/.prereq-build
 		$(OPKG) update || true; \
 	fi
 	$(MAKE) package_install
-ifneq ($(REMOVE_PACKAGES),)
-	$(MAKE) package_remove
-endif
 ifneq ($(VERSION),)
 	$(MAKE) prepare_files
 endif
@@ -156,16 +153,10 @@ package_install: FORCE
 	$(OPKG) install $(BUILD_PACKAGES)
 	rm -f $(TARGET_DIR)/usr/lib/opkg/lists/*
 
-package_remove: FORCE
-	@echo
-	@echo Removing packages...
-	$(OPKG) remove $(REMOVE_PACKAGES)
-	rm -f $(TARGET_DIR)/usr/lib/opkg/lists/*
-
 prepare_files: FORCE
 	mkdir -p $(TARGET_DIR)/etc
 	mkdir -p $(TARGET_DIR)/etc/opkg
-	@echo "$(VERSION)" > $(TARGET_DIR)/etc/glversion
+	echo "$(VERSION)" > $(TARGET_DIR)/etc/glversion
 	@echo "src/gz packages http://www.gl-inet.com/lede/$(VERSION)/$(BOARD)/$(SUBTARGET)" > $(TARGET_DIR)/etc/opkg/distfeeds.conf
 
 copy_files: FORCE
@@ -230,7 +221,6 @@ endif
 		$(if $(FILES),USER_FILES="$(FILES)") \
 		$(if $(VERSION),VERSION="$(VERSION)") \
 		$(if $(PACKAGES),USER_PACKAGES="$(PACKAGES)") \
-		$(if $(REMOVE_PACKAGES),REMOVE_PACKAGES="$(REMOVE_PACKAGES)") \
 		$(if $(BIN_DIR),BIN_DIR="$(BIN_DIR)"))
 
 .SILENT: help info image
