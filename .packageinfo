@@ -2925,7 +2925,7 @@ Imre Kaloz <kaloz@openwrt.org>
 
 Source-Makefile: package/firmware/ath10k-firmware/Makefile
 Package: ath10k-firmware-qca9887
-Version: 2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd-1
+Version: 2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -2935,15 +2935,33 @@ Category: Firmware
 Repository: base
 Title: ath10k firmware for QCA9887 devices
 Maintainer: Felix Fietkau <nbd@nbd.name>
-Source: ath10k-firmware-2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd.tar.xz
+Source: ath10k-firmware-2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17.tar.xz
 Type: ipkg
 Description: ath10k firmware for QCA9887 devices
 https://github.com/kvalo/ath10k-firmware.git
 Felix Fietkau <nbd@nbd.name>
 @@
 
+Package: ath10k-firmware-qca9888
+Version: 2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: firmware
+Category: Firmware
+Repository: base
+Title: ath10k firmware for QCA9888 devices
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Source: ath10k-firmware-2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17.tar.xz
+Type: ipkg
+Description: ath10k firmware for QCA9888 devices
+https://github.com/kvalo/ath10k-firmware.git
+Felix Fietkau <nbd@nbd.name>
+@@
+
 Package: ath10k-firmware-qca988x
-Version: 2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd-1
+Version: 2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -2953,7 +2971,7 @@ Category: Firmware
 Repository: base
 Title: ath10k firmware for QCA988x devices
 Maintainer: Felix Fietkau <nbd@nbd.name>
-Source: ath10k-firmware-2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd.tar.xz
+Source: ath10k-firmware-2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17.tar.xz
 Type: ipkg
 Description: ath10k firmware for QCA988x devices
 https://github.com/kvalo/ath10k-firmware.git
@@ -2961,7 +2979,7 @@ Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: ath10k-firmware-qca99x0
-Version: 2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd-1
+Version: 2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -2971,7 +2989,7 @@ Category: Firmware
 Repository: base
 Title: ath10k firmware for QCA99x0 devices
 Maintainer: Felix Fietkau <nbd@nbd.name>
-Source: ath10k-firmware-2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd.tar.xz
+Source: ath10k-firmware-2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17.tar.xz
 Type: ipkg
 Description: Standard ath10k firmware for QCA99x0 from QCA
 This firmware conflicts with the CT 99x0 firmware, so select only
@@ -2981,7 +2999,7 @@ Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: ath10k-firmware-qca6174
-Version: 2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd-1
+Version: 2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -2991,7 +3009,7 @@ Category: Firmware
 Repository: base
 Title: ath10k firmware for QCA6174 devices
 Maintainer: Felix Fietkau <nbd@nbd.name>
-Source: ath10k-firmware-2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd.tar.xz
+Source: ath10k-firmware-2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17.tar.xz
 Type: ipkg
 Description: ath10k firmware for QCA6174 devices
 https://github.com/kvalo/ath10k-firmware.git
@@ -2999,7 +3017,7 @@ Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: ath10k-firmware-qca9984
-Version: 2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd-1
+Version: 2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -3009,15 +3027,33 @@ Category: Firmware
 Repository: base
 Title: ath10k firmware for QCA9984 devices
 Maintainer: Felix Fietkau <nbd@nbd.name>
-Source: ath10k-firmware-2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd.tar.xz
+Source: ath10k-firmware-2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17.tar.xz
 Type: ipkg
 Description: ath10k firmware for QCA9984 devices
 https://github.com/kvalo/ath10k-firmware.git
 Felix Fietkau <nbd@nbd.name>
 @@
 
+Package: ath10k-firmware-qca4019
+Version: 2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: firmware
+Category: Firmware
+Repository: base
+Title: ath10k firmware for IPQ/QCA4019 devices
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Source: ath10k-firmware-2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17.tar.xz
+Type: ipkg
+Description: ath10k firmware for IPQ/QCA4019 devices
+https://github.com/kvalo/ath10k-firmware.git
+Felix Fietkau <nbd@nbd.name>
+@@
+
 Package: ath10k-firmware-qca9887-ct
-Version: 2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd-1
+Version: 2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -3027,7 +3063,7 @@ Category: Firmware
 Repository: base
 Title: ath10k CT 10.1 firmware for QCA9887 devices
 Maintainer: Felix Fietkau <nbd@nbd.name>
-Source: ath10k-firmware-2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd.tar.xz
+Source: ath10k-firmware-2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17.tar.xz
 Type: ipkg
 Description: Alternative ath10k firmware for QCA9887 from Candela Technologies.
 Enables IBSS and other features.  See:
@@ -3039,7 +3075,7 @@ Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: ath10k-firmware-qca988x-ct
-Version: 2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd-1
+Version: 2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -3049,7 +3085,7 @@ Category: Firmware
 Repository: base
 Title: ath10k CT 10.1 firmware for QCA988x devices
 Maintainer: Felix Fietkau <nbd@nbd.name>
-Source: ath10k-firmware-2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd.tar.xz
+Source: ath10k-firmware-2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17.tar.xz
 Type: ipkg
 Description: Alternative ath10k firmware for QCA988X from Candela Technologies.
 Enables IBSS and other features.  See:
@@ -3062,7 +3098,7 @@ Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: ath10k-firmware-qca99x0-ct
-Version: 2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd-1
+Version: 2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -3072,7 +3108,7 @@ Category: Firmware
 Repository: base
 Title: ath10k CT 10.4.3 firmware for QCA99x0 devices
 Maintainer: Felix Fietkau <nbd@nbd.name>
-Source: ath10k-firmware-2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd.tar.xz
+Source: ath10k-firmware-2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17.tar.xz
 Type: ipkg
 Description: Alternative ath10k firmware for QCA99x0 from Candela Technologies.
 Enables IBSS and other features.  See:
@@ -3084,7 +3120,7 @@ Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: ath10k-firmware-qca9984-ct
-Version: 2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd-1
+Version: 2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -3094,12 +3130,34 @@ Category: Firmware
 Repository: base
 Title: ath10k CT 10.4.3 firmware for QCA9984 devices
 Maintainer: Felix Fietkau <nbd@nbd.name>
-Source: ath10k-firmware-2017-01-11-ab432c60437931a165f0aff1a6e3371f358b75dd.tar.xz
+Source: ath10k-firmware-2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17.tar.xz
 Type: ipkg
 Description: Alternative ath10k firmware for QCA9984 from Candela Technologies.
 Enables IBSS and other features.  See:
 http://www.candelatech.com/ath10k-10.4.php
 This firmware conflicts with the standard 9984 firmware, so select only
+one.
+https://github.com/kvalo/ath10k-firmware.git
+Felix Fietkau <nbd@nbd.name>
+@@
+
+Package: ath10k-firmware-qca9888-ct
+Version: 2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: firmware
+Category: Firmware
+Repository: base
+Title: ath10k CT 10.4.3 firmware for QCA9886 and QCA9888 devices
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Source: ath10k-firmware-2017-12-20-35d8642f452827b955470de4ac997ffe906a6f17.tar.xz
+Type: ipkg
+Description: Alternative ath10k firmware for QCA9886 and QCA9888 from Candela Technologies.
+Enables IBSS and other features.  See:
+http://www.candelatech.com/ath10k-10.4.php
+This firmware conflicts with the standard 9886 and 9888 firmware, so select only
 one.
 https://github.com/kvalo/ath10k-firmware.git
 Felix Fietkau <nbd@nbd.name>
@@ -4249,64 +4307,7 @@ Description:   This package contains the Atheros PB44 board specific microcode f
 @@
 
 
-Source-Makefile: package/gli-pri/gl-base-file/Makefile
-Package: gl-base-files
-Version: 1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: base
-Category: gl-inet
-Repository: base
-Title: GL iNet base files
-Maintainer: 
-Source: 
-Type: ipkg
-Description:  This package contains a base configuration and system scripts for GL iNet.
-
-@@
-
-
-Source-Makefile: package/gli-pri/gl-health/Makefile
-Package: gl-health
-Version: 1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @TARGET_ramips_mt7628 +gl-util
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: base
-Category: gl-inet
-Repository: base
-Title: GL iNet a mini unity support connecting to ap automatically 
-Maintainer: 
-Source: 
-Type: ipkg
-Description: GL iNet a mini unity support connecting to ap automatically 
-
-@@
-
-
-Source-Makefile: package/gli-pri/gl-modem/Makefile
-Package: gl-modem
-Version: 1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libuci +libubus +libblobmsg-json +libubox +gl-util
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: base
-Category: gl-inet
-Repository: base
-Title: GL iNet modem manager
-Maintainer: 
-Source: 
-Type: ipkg
-Description: GL iNet modem manager
-
-@@
-
-
-Source-Makefile: package/gli-pri/gl-ui/Makefile
+Source-Makefile: package/gl_fw/gl-ui/Makefile
 Package: gl-inet
 Version: 2.3.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +fcgi +libubox +gl-util +gl-modem +gl-vpn +gl-base-files
@@ -4325,7 +4326,26 @@ Description: Compiling a firmware with GL backend and UI.
 @@
 
 
-Source-Makefile: package/gli-pri/gl-util/Makefile
+Source-Makefile: package/gl_fw/gl_base_files/Makefile
+Package: gl-base-files
+Version: 1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: base
+Category: gl-inet
+Repository: base
+Title: GL iNet base files
+Maintainer: 
+Source: 
+Type: ipkg
+Description:  This package contains a base configuration and system scripts for GL iNet.
+
+@@
+
+
+Source-Makefile: package/gl_fw/gl_util/Makefile
 Package: gl-util
 Version: 1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libuci +libjson-c +libiwinfo
@@ -4344,7 +4364,64 @@ Description: GL iNet common libary
 @@
 
 
-Source-Makefile: package/gli-pri/gl-vpn/Makefile
+Source-Makefile: package/gl_fw/gl_wifi_core/Makefile
+Package: gl-wifi-core
+Version: 1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +gl-util
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: base
+Category: gl-inet
+Repository: base
+Title: GL iNet common libary
+Maintainer: 
+Source: 
+Type: ipkg
+Description: GL iNet common libary
+
+@@
+
+
+Source-Makefile: package/gl_misc/ar750_sta_watch/Makefile
+Package: ar750-sta-watch
+Version: 1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: base
+Category: gl-inet
+Repository: base
+Title:  ar750-sta-watch
+Maintainer: 
+Source: 
+Type: ipkg
+Description:  ar750-sta-watch
+
+@@
+
+
+Source-Makefile: package/gl_mod/gl_modem/Makefile
+Package: gl-modem
+Version: 1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libuci +libubus +libblobmsg-json +libubox +gl-util
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: base
+Category: gl-inet
+Repository: base
+Title: GL iNet modem manager
+Maintainer: 
+Source: 
+Type: ipkg
+Description: GL iNet modem manager
+
+@@
+
+
+Source-Makefile: package/gl_mod/gl_ovpn/Makefile
 Package: gl-vpn
 Version: 1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +gl-util +openvpn-openssl +openssl-util
@@ -4363,44 +4440,21 @@ Description: Openvpn server endpoint api for gl-inet.
 @@
 
 
-Source-Makefile: package/gli-pri/mt7628/Makefile
-Package: kmod-mt7628
-Menu: 1
-Submenu: Wireless Drivers
-Version: <LINUX_VERSION>+4.0.1.3-
-Depends: @TARGET_ramips_mt7628 +kmod-mac80211 @PCI_SUPPORT @!LINUX_3_18 +@DRIVER_11AC_SUPPORT +@DRIVER_11N_SUPPORT +@DRIVER_11W_SUPPORT
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: kernel
-Category: Kernel modules
-Title: MediaTek MT7628/MT7688 wireless driver
-Maintainer: 
-Source: 
-Type: ipkg
-Description: MediaTek MT7628/MT7688 wireless driver
-
-@@
-Config:
-	source "package/gli-pri/mt7628/config.in"
-@@
-
-
-Source-Makefile: package/gli-pri/uci2dat/Makefile
-Package: uci2dat
+Source-Makefile: package/gl_mod/gl_repeater/Makefile
+Package: gl-repeater
 Version: 1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @TARGET_ramips_mt7628 +libuci
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libubus +gl-util +gl-wifi-core
 Conflicts: 
 Menu-Depends: 
 Provides: 
 Section: base
 Category: gl-inet
 Repository: base
-Title: Translate uci config into ralink wifi dat format
+Title: GL Health
 Maintainer: 
 Source: 
 Type: ipkg
-Description:   Translate uci config into ralink wifi dat format
+Description: GL Health
 
 @@
 
@@ -25467,7 +25521,7 @@ Jo-Philipp Wich <jo@mein.io>
 Source-Makefile: package/network/utils/curl/Makefile
 Package: curl
 Submenu: File Transfer
-Version: 7.52.1-5
+Version: 7.58.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libcurl
 Conflicts: 
 Menu-Depends: 
@@ -25477,7 +25531,7 @@ Category: Network
 Repository: base
 Title: A client-side URL transfer utility
 Maintainer: Imre Kaloz <kaloz@openwrt.org>
-Source: curl-7.52.1.tar.bz2
+Source: curl-7.58.0.tar.bz2
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
@@ -25488,8 +25542,8 @@ Imre Kaloz <kaloz@openwrt.org>
 
 Package: libcurl
 Menu: 1
-Version: 7.52.1-5
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +LIBCURL_CYASSL:libcyassl +LIBCURL_OPENSSL:libopenssl +LIBCURL_GNUTLS:libgnutls +LIBCURL_MBEDTLS:libmbedtls +LIBCURL_ZLIB:zlib +LIBCURL_THREADED_RESOLVER:libpthread +LIBCURL_LDAP:libopenldap +LIBCURL_LIBIDN:libidn +LIBCURL_SSH2:libssh2
+Version: 7.58.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +LIBCURL_WOLFSSL:libwolfssl +LIBCURL_OPENSSL:libopenssl +LIBCURL_GNUTLS:libgnutls +LIBCURL_MBEDTLS:libmbedtls +LIBCURL_ZLIB:zlib +LIBCURL_THREADED_RESOLVER:libpthread +LIBCURL_LDAP:libopenldap +LIBCURL_LIBIDN:libidn +LIBCURL_SSH2:libssh2 +LIBCURL_NGHTTP2:libnghttp2
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -25498,7 +25552,7 @@ Category: Libraries
 Repository: base
 Title: A client-side URL transfer library
 Maintainer: Imre Kaloz <kaloz@openwrt.org>
-Source: curl-7.52.1.tar.bz2
+Source: curl-7.58.0.tar.bz2
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
@@ -27500,27 +27554,6 @@ Type: ipkg
 Description:   umbim is a command line tool for controlling mobile broadband modems using
   the MBIM-protocol.
 John Crispin <john@phrozen.org>
-@@
-
-
-Source-Makefile: package/network/utils/uqmi/Makefile
-Package: uqmi
-Submenu: WWAN
-Version: 2016-12-19-8ceeab690d8c6f1e3afbd4bcaee7bc2ba3fbe165-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libubox +libblobmsg-json +kmod-usb-net +kmod-usb-net-qmi-wwan +wwan
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: net
-Category: Network
-Title: Control utility for mobile broadband modems
-Maintainer: Matti Laakso <malaakso@elisanet.fi>
-Source: uqmi-2016-12-19-8ceeab690d8c6f1e3afbd4bcaee7bc2ba3fbe165.tar.xz
-License: GPL-2.0
-Type: ipkg
-Description:   uqmi is a command line tool for controlling mobile broadband modems using
-  the QMI-protocol.
-Matti Laakso <malaakso@elisanet.fi>
 @@
 
 
@@ -31873,6 +31906,33 @@ https://tls.mbed.org
 @@
 
 
+Source-Makefile: package/feeds/gli_pub/mjpg-streamer/Makefile
+Package: mjpg-streamer
+Menu: 1
+Version: r182-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libjpeg +MJPG_STREAMER_V4L2:libv4l
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: MJPG_STREAMER_V4L2:libv4l
+Section: multimedia
+Category: Multimedia
+Repository: gli_pub
+Title: MJPG-streamer
+Maintainer: Roger D <rogerdammit@gmail.com>
+Source: mjpg-streamer-r182.1.tar.bz2
+License: GPL-2.0
+LicenseFiles: LICENSE
+Type: ipkg
+Description:  Streaming application for Linux-UVC compatible webcams
+http://mjpg-streamer.wiki.sourceforge.net/
+Roger D <rogerdammit@gmail.com>
+@@
+Config:
+  source "/home/kyson/share/feeds/gli_pub/mjpg-streamer/Config.in"
+@@
+
+
 Source-Makefile: package/feeds/gli_pub/openwrt-dist-luci/Makefile
 Package: luci-app-chinadns
 Submenu: 3. Applications
@@ -32118,6 +32178,28 @@ Description:  Tor is a toolset for a wide range of organizations and people that
  This package contains a GeoIP database mapping IP addresses to countries.
 https://www.torproject.org/
 Hauke Mehrtens <hauke@hauke-m.de>
+@@
+
+
+Source-Makefile: package/feeds/gli_pub/uqmi/Makefile
+Override: network/utils/uqmi
+Package: uqmi
+Submenu: WWAN
+Version: 2016-12-19-8ceeab690d8c6f1e3afbd4bcaee7bc2ba3fbe165-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libubox +libblobmsg-json +kmod-usb-net +kmod-usb-net-qmi-wwan +wwan
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Control utility for mobile broadband modems
+Maintainer: Matti Laakso <malaakso@elisanet.fi>
+Source: uqmi-2016-12-19-8ceeab690d8c6f1e3afbd4bcaee7bc2ba3fbe165.tar.xz
+License: GPL-2.0
+Type: ipkg
+Description:   uqmi is a command line tool for controlling mobile broadband modems using
+  the QMI-protocol.
+Matti Laakso <malaakso@elisanet.fi>
 @@
 
 
@@ -81789,33 +81871,6 @@ Type: ipkg
 Description: Lightweight UPnP library
 http://miniupnp.tuxfamily.org/
 Steven Barth <cyrus@openwrt.org>
-@@
-
-
-Source-Makefile: package/feeds/packages/mjpg-streamer/Makefile
-Package: mjpg-streamer
-Menu: 1
-Version: r182-8
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libjpeg +MJPG_STREAMER_V4L2:libv4l
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: MJPG_STREAMER_V4L2:libv4l
-Section: multimedia
-Category: Multimedia
-Repository: packages
-Title: MJPG-streamer
-Maintainer: Roger D <rogerdammit@gmail.com>
-Source: mjpg-streamer-r182.1.tar.bz2
-License: GPL-2.0
-LicenseFiles: LICENSE
-Type: ipkg
-Description:  Streaming application for Linux-UVC compatible webcams
-http://mjpg-streamer.wiki.sourceforge.net/
-Roger D <rogerdammit@gmail.com>
-@@
-Config:
-  source "/home/kyson/share/feeds/packages/multimedia/mjpg-streamer/Config.in"
 @@
 
 

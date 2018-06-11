@@ -5,7 +5,7 @@
 	},
 	"profiles": {
 		"gl-ar750": {
-			"v1": "ar750-sta-watch -gl-repeater -mjpg-streamer -kmod-video-core -kmod-video-uvc -kmod-video-gspca-core -kmod-video-gspca-zc3xx -kmod-video-gspca-sonixb -kmod-video-gspca-sonixj"
+			"v1": "ar750-sta-watch -mjpg-streamer -kmod-video-core -kmod-video-uvc -kmod-video-gspca-core -kmod-video-gspca-zc3xx -kmod-video-gspca-sonixb -kmod-video-gspca-sonixj"
 		},
 		"gl-ar150": {
 		},

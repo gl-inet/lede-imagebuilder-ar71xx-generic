@@ -1484,6 +1484,20 @@ Target-Profile-Description:
 Build firmware images for GL.iNet GL-AR750
 @@
 
+Target-Profile: DEVICE_gl-ar750s
+Target-Profile-Name: GL.iNet GL-AR750S
+Target-Profile-Packages: kmod-ath10k ath10k-firmware-qca9887 kmod-usb-core kmod-usb2 kmod-usb-storage
+Target-Profile-Description:
+Build firmware images for GL.iNet GL-AR750S
+@@
+
+Target-Profile: DEVICE_gl-ar1200
+Target-Profile-Name: GL.iNet GL-AR1200
+Target-Profile-Packages: kmod-ath10k ath10k-firmware-qca9888 kmod-usb-core kmod-usb2 kmod-usb-storage
+Target-Profile-Description:
+Build firmware images for GL.iNet GL-AR1200
+@@
+
 Target-Profile: DEVICE_gl-domino
 Target-Profile-Name: GL Domino Pi
 Target-Profile-Packages: kmod-usb-core kmod-usb2
@@ -2704,6 +2718,13 @@ Target-Profile-Name: GL-AR300M with nand flash
 Target-Profile-Packages: kmod-usb-core kmod-usb2 uboot-envtools
 Target-Profile-Description:
 Build firmware images for GL-AR300M with nand flash
+@@
+
+Target-Profile: DEVICE_GL-AR750S
+Target-Profile-Name: GL-AR750S with nand flash
+Target-Profile-Packages: kmod-usb-core kmod-usb2 uboot-envtools
+Target-Profile-Description:
+Build firmware images for GL-AR750S with nand flash
 @@
 
 Target: ar71xx/mikrotik
