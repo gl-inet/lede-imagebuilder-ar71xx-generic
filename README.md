@@ -29,21 +29,13 @@ from the package list.
 We can use gl_image utility to create image quickly. You can issue  
 `gl_image --help` for help.  
 
-For GL-AR750:  
 ```bash  
 Stoke firmware:  
-$ ./gl_image -i v1 -p gl-ar750 -v 2.27
+$ ./gl_image
 
-Clean firmware:
-$ ./gl_image -i clean -p gl-ar750 -v 2.27
+Clean firmware with files directory and custom packages:
+$ ./gl_image -t clean -p '-wpad-mini wpad' -f ./files
 ```  
-
-For GL-AR150:  
-```bash  
-$ ./gl_image -i v1 -p gl-ar150 -v 2.27
-```  
-
-We can use ourselves files with -f option, value is files directory name.  
 
 Available image or profile is listed in images.json.  
 
